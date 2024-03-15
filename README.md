@@ -1,13 +1,13 @@
 Kullanılan Teknolojiler
 
--> ASP.NET MVC
--> Db First
--> Entity Framework
--> SQL Server
--> HTML
--> CSS
--> Bootstrap
--> jQuery
--> DataTable
--> LogOut
--> Authorization
+. ASP.NET MVC
+. Db First
+. Entity Framework
+. SQL Server
+. HTML
+. CSS
+. Bootstrap
+. jQuery
+. DataTable
+. LogOut
+. Authorization
