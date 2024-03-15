@@ -1,0 +1,39 @@
+﻿@model MvcCv.Models.Entity.TblHakkimda
+
+
+@{
+    ViewBag.Title = "HakkimdaGuncelle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h4>Hakkımda Güncelleme Sayfası</h4>
+<br />
+<form method="post">
+    <br />
+    @Html.Label("Ad", new { @for = "floatingInput" })
+    @Html.TextBoxFor(x => x.Ad, new { @class = "form-control", @placeholder = "Ad", id = "floatingInput" })
+    <br />
+    @Html.Label("Soyad", new { @for = "floatingInput" })
+    @Html.TextBoxFor(x => x.Soyad, new { @class = "form-control", @placeholder = "Soyad", id = "floatingInput" })
+    <br />
+    @Html.Label("Adres", new { @for = "floatingInput" })
+    @Html.TextBoxFor(x => x.Adres, new { @class = "form-control", @placeholder = "Adres", id = "floatingInput" })
+    <br />
+    @Html.Label("Telefon", new { @for = "floatingInput" })
+    @Html.TextBoxFor(x => x.Telefon, new { @class = "form-control", @placeholder = "Telefon", id = "floatingInput" })
+    <br />
+    @Html.Label("Mail", new { @for = "floatingInput" })
+    @Html.TextBoxFor(x => x.Mail, new { @class = "form-control", @placeholder = "Mail", id = "floatingInput" })
+    <br />
+    @Html.Label("Açıklama", new { @for = "floatingInput" })
+    @Html.TextBoxFor(x => x.Aciklama, new { @class = "form-control", @placeholder = "Açıklama", id = "floatingInput" })
+    <br />
+    @Html.Label("Resim", new { @for = "floatingInput" })
+    @Html.TextBoxFor(x => x.Resim, new { @class = "form-control", @placeholder = "Resim", id = "floatingInput" })
+    <br />
+
+    <button class="btn btn-info">Güncelle</button>
+</form>
+
+
